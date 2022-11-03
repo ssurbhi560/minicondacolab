@@ -1,0 +1,13 @@
+name: minicondacolab
+version: 22.9-0
+installer_type: sh
+channels:
+  - conda-forge
+specs:
+  - python    
+  - psutil
+  - ipykernel
+  - matplotlib-base
+  - google-colab
+  - astor
+  - portpicker
