@@ -1,10 +1,13 @@
 name: minicondacolab
 version: 22.9-0
 installer_type: sh
+
 channels:
   - conda-forge
+
 specs:
   - python    
+  - conda
   - psutil
   - ipykernel
   - matplotlib-base
